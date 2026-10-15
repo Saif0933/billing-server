@@ -14,7 +14,6 @@ export class DashboardController {
   constructor(service: DashboardService = dashboardService) {
     this.service = service;
   }
-
   /**
    * Safe extraction of active business ID
    */
