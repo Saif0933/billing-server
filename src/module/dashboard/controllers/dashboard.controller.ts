@@ -15,6 +15,7 @@ export class DashboardController {
     this.service = service;
   }
 
+
   /**
    * Safe extraction of active business ID
    */
@@ -50,6 +51,7 @@ export class DashboardController {
     );
   }
 
+  
   /**
    * GET /api/v1/dashboard/overview
    * Returns unified full dashboard payload (KPIs, trend chart, cash/bank, inventory, recent activity, reminders)
